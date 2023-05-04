@@ -1,0 +1,26 @@
+h1 {
+	font-size: 70px;
+}
+
+lable {
+	display: block;
+	margin: 2.5rem 0;
+}
+
+.center {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	height: 100%;
+}
+
+.custom__form {
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 10px;
+	/*display: flex;
+	flex-dirrection: row;
+	align-items: center;
+	justify-content: space-between;*/
+	text-align: center;
+}

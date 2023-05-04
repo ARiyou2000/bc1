@@ -12,15 +12,47 @@ lable {
 	align-items: center;
 	justify-content: space-evenly;
 	height: 100%;
+	background: #76b852;
 }
 
 .custom__form {
-	padding: 10px;
-	border: 1px solid;
-	border-radius: 10px;
-	/*display: flex;
-	flex-dirrection: row;
+	/*border: 1px solid;
+	border-radius: 10px;*/
+	/*box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;*/
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	display: flex;
+	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;*/
+	justify-content: space-between;
 	text-align: center;
+	gap: 10px;
+	padding: 45px;
+	background: white;
+}
+
+.custom__form * {
+	display: block;
+	width: 100%;
+}
+
+.custom__form button {
+	background: #4CAF50;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+.custom__form input {
+	background: #f2f2f2;
+	width: 100%;
+	border: 0;
+	margin: 0 0 15px;
+	padding: 15px;
+	box-sizing: border-box;
+	font-size: 14px;
+}
+form {
+	margin: 0;
 }
